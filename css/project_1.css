@@ -1,0 +1,48 @@
+body {
+	background: black;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+
+	outline: 1px dashed white; 
+}
+
+
+/* Class for universal padding' */
+
+#character {
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	top:380px;
+	left: 87.5px;
+	z-index: 10001px;
+}
+
+/* this is styling for a jQuery test */
+
+.myClass {
+	background-color: #36819e;
+	font-size: 100px;
+}
+
+#pageone {
+	position: relative;
+	min-width: 375px;
+}
+
+#gift {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 360px;
+	right: 0px;
+	z-index: 10001px;
+}
+
+
+.ui-loader {
+	display: none;
+}
